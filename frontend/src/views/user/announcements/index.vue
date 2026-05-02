@@ -1,0 +1,21 @@
+<template>
+  <div class="announcements">
+    <el-card>
+      <template #header>
+        <span class="title">公告列表</span>
+      </template>
+      <el-empty description="功能开发中..." />
+    </el-card>
+  </div>
+</template>
+
+<script setup lang="ts">
+// 公告页面
+</script>
+
+<style scoped>
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+</style>
